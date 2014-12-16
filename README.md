@@ -1,6 +1,14 @@
-Learn Python
+学习笔记 
 ====
 
-algorithm
+python
 ===
-算法集合
+python 算法记录
+
+linux
+===
+linux常用命令
+
+vim
+===
+vim 常用功能
