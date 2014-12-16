@@ -2,6 +2,8 @@
 # coding=utf-8
 
 def powerset(p):
+    '''子集
+    '''
     aa =[[]]
     for i in p:
         l = len(aa)
