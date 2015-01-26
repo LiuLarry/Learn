@@ -6,8 +6,7 @@ def powerset(p):
     '''
     aa =[[]]
     for i in p:
-        l = len(aa)
-        for j in aa[:l]:
+        for j in aa[:]:
             k = [i]
             k = j + k
             aa.append(k)
