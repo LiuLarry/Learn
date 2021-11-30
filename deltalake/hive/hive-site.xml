@@ -34,5 +34,9 @@
     <value>thrift://192.168.173.100:9083</value>
     <description>Thrift uri for the remote metastore. Used by metastore client to connect to remote metastore.</description>
   </property>
+  <property>
+     <name>hive.metastore.rawstore.impl</name>
+     <value>io.lakecat.catalog.hms.hive2.HMSBridgeStore</value>
+  </property>
 </configuration>
 
